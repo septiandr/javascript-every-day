@@ -1,0 +1,19 @@
+{
+  "name": "javascript-every-day",
+  "version": "1.0.0",
+  "main": "customPromiseAll.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@personal:septiandr/javascript-every-day.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
