@@ -24,5 +24,15 @@ test("negatif case: jika bukan kelipatan 3 harus return undefined", () => {
   expect(fizzbuzz(7)).toBeUndefined();  // 7 bukan kelipatan 3
 });
 
+test.each([
+  [3, "Fizz"],
+  [5, "Buzz"],
+  [15, "FizzBuzz"],
+  [7, undefined],
+  [11, undefined],
+])("fizzbuzz(%i) = %s", (input, output) => {
+  expect(fizzbuzz(input)).toBe(output);
+});
+
 
 
