@@ -11,3 +11,13 @@ console.log("🚀 ~ reversedArray:", reversedArray);
 const reversedtext = reversedArray.join(""); // change from array to string
 console.log("🚀 ~ ReversedText:", reversedtext);
 //🚀 ~ ReversedText: !dlroW ,olleH
+
+// using reduce
+console.log(text);
+const reversedTextUsingReduce = text
+  .split("")
+  .reduce((acc, val) => val + acc, "");
+/*
+
+*/
+console.log("🚀 ~ ReversedTextUsingReduce:", reversedTextUsingReduce);
