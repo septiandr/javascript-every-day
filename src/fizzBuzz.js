@@ -14,3 +14,4 @@ const fizzbuzz = (n) => {
     return "Buzz";
   }
 };
+module.exports = { fizzbuzz };
