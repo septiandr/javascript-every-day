@@ -23,3 +23,6 @@ function interpretasiBMI(bmi){
         return "Obesitas";
     }
 }
+
+interpretasiBMI(20);
+hitungBMI(70, 1.7);
