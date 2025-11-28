@@ -1,0 +1,1 @@
+const { hitungBMI, interpretasiBMI } = require('../src/BMIcalculator');
