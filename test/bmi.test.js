@@ -7,3 +7,11 @@ test('hitungBMI', () => {
 test('interpretasiBMI', () => {
     expect(interpretasiBMI(24.22)).toBe("Normal");
 });
+
+test('interpretasiBMI', () => {
+    expect(interpretasiBMI(30)).toBe("Kelebihan Berat Badan");
+});
+
+test('interpretasiBMI', () => {
+    expect(interpretasiBMI(18.5)).toBe("Kekurangan Berat Badan");
+});
