@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1764556615113" clover="3.2.0">
-  <project timestamp="1764556615113" name="All files">
+<coverage generated="1764556737218" clover="3.2.0">
+  <project timestamp="1764556737218" name="All files">
     <metrics statements="25" coveredstatements="24" conditionals="20" coveredconditionals="18" methods="4" coveredmethods="4" elements="49" coveredelements="46" complexity="0" loc="25" ncloc="25" packages="1" files="3" classes="3"/>
     <file name="BMIcalculator.js" path="/Users/risanggalih/Desktop/javascript-every-day/src/BMIcalculator.js">
       <metrics statements="11" coveredstatements="10" conditionals="12" coveredconditionals="10" methods="2" coveredmethods="2"/>
@@ -30,9 +30,9 @@
     <file name="reverseWordSentence.js" path="/Users/risanggalih/Desktop/javascript-every-day/src/reverseWordSentence.js">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="1" type="stmt"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
       <line num="9" count="1" type="stmt"/>
     </file>

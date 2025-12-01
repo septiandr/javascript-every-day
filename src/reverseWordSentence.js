@@ -1,7 +1,7 @@
 const reverseWordSentence = (sentence) => {
   const word = sentence.split(" ");
   const reverseWord = word.reverse().join(" ");
-  return reverseWord;
+  return reverseWord.toLowerCase();
 };
 
 console.log(reverseWordSentence("Hello World"));
