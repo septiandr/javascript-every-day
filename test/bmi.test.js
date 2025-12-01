@@ -9,7 +9,7 @@ test('interpretasiBMI', () => {
 });
 
 test('interpretasiBMI', () => {
-    expect(interpretasiBMI(30)).toBe("Kelebihan Berat Badan");
+    expect(interpretasiBMI(30)).toBe("Obesitas");
 });
 
 test('interpretasiBMI', () => {

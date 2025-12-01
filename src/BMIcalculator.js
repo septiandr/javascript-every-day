@@ -4,8 +4,8 @@ function hitungBMI(berat, tinggi) {
 }
 
 function interpretasiBMI(bmi) {
-  if (bmi < 18.5) {
-    return "Kekurangan berat badan";
+  if (bmi <= 18.5) {
+    return "Kekurangan Berat Badan";
   } else if (bmi >= 18.5 && bmi < 25) {
     return "Normal";
   } else if (bmi >= 25 && bmi < 30) {
