@@ -1,4 +1,4 @@
-const findUniqeNumber = (arr) => {
+const findUniqeNumber = (arr)  => {
   let uniqeNumber = [];
   let dobleNumber = [];
   arr.forEach((val) => {
@@ -18,6 +18,6 @@ const findUniqeNumber = (arr) => {
   return uniqeNumber;
 };
 
-console.log(findUniqeNumber([1, 1, 5, 8, 8, 3, 1, 3, 9]));
+console.log(typeof findUniqeNumber([1, 1, 5, 8, 8, 3, 1, 3, 9]));
 
 module.exports = findUniqeNumber;
