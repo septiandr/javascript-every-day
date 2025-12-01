@@ -1,7 +1,9 @@
-export const reverseWordSentence =(sentence)=>{
-    const word = sentence.split(" ")
-    const reverseWord = word.reverse(). join(" ")
-    return reverseWord
-}
+const reverseWordSentence = (sentence) => {
+  const word = sentence.split(" ");
+  const reverseWord = word.reverse().join(" ");
+  return reverseWord;
+};
 
-console.log(reverseWordSentence("Hello World"))
+console.log(reverseWordSentence("Hello World"));
+
+module.exports = reverseWordSentence ;
