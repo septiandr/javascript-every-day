@@ -17,3 +17,4 @@ const findUniqeNumber = (arr) => {
 
 console.log(findUniqeNumber([1,1,2,2,5,8]))
 
+module.exports = findUniqeNumber
