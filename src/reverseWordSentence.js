@@ -4,3 +4,4 @@ const reverseWordSentence =(sentence)=>{
     return reverseWord
 }
 
+console.log(reverseWordSentence("Hello World"))
