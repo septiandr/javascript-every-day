@@ -1,6 +1,6 @@
-
 function hitungBMI(berat, tinggi) {
-  return berat / (tinggi * tinggi);
+  const bmi = berat / (tinggi * tinggi);
+  return parseFloat(bmi.toFixed(2));
 }
 
 function interpretasiBMI(bmi) {
@@ -16,4 +16,3 @@ function interpretasiBMI(bmi) {
 }
 
 module.exports = { hitungBMI, interpretasiBMI };
-
