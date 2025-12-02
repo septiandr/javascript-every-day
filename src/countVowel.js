@@ -1,9 +1,11 @@
 const countVowel = (str) => {
     let count = 0;
     let vowels =['a','i','u','e','o']
-    forEach(vowels, (vowel) => {
-        if(str.includes(vowel)){
+    for(let i = 0; i < str.length; i++){
+        if(vowels.includes(str[i])){
             count++
         }
-    })
+    }
+    return count
 }
+console.log(countVowel("Paket  lampu motor lakikai"));
