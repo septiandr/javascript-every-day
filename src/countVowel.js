@@ -8,4 +8,6 @@ const countVowel = (str) => {
     }
     return count
 }
+
+module.exports = countVowel
 console.log(countVowel("Paket  lampu motor lakikai"));
