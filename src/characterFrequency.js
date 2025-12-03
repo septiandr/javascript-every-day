@@ -12,3 +12,5 @@ function characterFrequency(str) {
 
   return frequency;
 }
+
+module.exports = characterFrequency;
