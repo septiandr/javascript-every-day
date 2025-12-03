@@ -1,0 +1,1 @@
+const characterFrequency = require('../characterFrequency');
