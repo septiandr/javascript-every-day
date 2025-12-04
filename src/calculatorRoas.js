@@ -37,9 +37,9 @@ function hitungROAS(params) {
 // === Contoh penggunaan ===
 console.log(
   hitungROAS({
-    hargaJual: 30000,
-    hpp: 15000,
+    hargaJual: 19850,
+    hpp: 6000,
     adminPersen: 6.5,
-    profitPersen: 20 // 20% profit dari harga jual
+    profitPersen: 20
   })
 );
